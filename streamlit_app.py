@@ -22,7 +22,7 @@ st.write('Enter the details below to predict the salary.')
 age = st.slider('Age', 18, 65, 30)
 gender_options = ['Male', 'Female', 'Other']
 gender_selected = st.selectbox('Gender', gender_options)
-education_options = ['High School', 'Bachelor's Degree', 'Master's Degree', 'PhD']
+education_options = ["High School", "Bachelor's Degree", "Master's Degree", "PhD"]
 education_selected = st.selectbox('Education Level', education_options)
 job_title = st.text_input('Job Title (e.g., Data Scientist, Software Engineer)', 'Data Scientist')
 years_of_experience = st.slider('Years of Experience', 0.0, 30.0, 5.0, 0.5)
