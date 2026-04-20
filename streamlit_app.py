@@ -9,7 +9,7 @@ with open('random_forest_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the label encoders
-with open('label_encoders.pkl', 'rb') as file:
+with open('label_encoders.pkl (1)', 'rb') as file:
     label_encoders = pickle.load(file)
 
 # Set page config
